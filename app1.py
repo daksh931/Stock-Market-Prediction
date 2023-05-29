@@ -118,7 +118,7 @@ def process():
                            all_prediction_data=all_prediction_data,
                            prediction_date=prediction_date, dates=dates, all_data=all_data, len=len(all_data))
 
-if __name__ =='__main__':
-    app.run(debug=True)       
+if __name__ =='__main__':  
+    app.run(host='0.0.0.0',port=8080,debug=True)
 
 
